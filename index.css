@@ -1,0 +1,82 @@
+.expression-container {
+  margin: 20px;
+  font: 14px sans-serif;
+
+  .set-characters-form {
+    margin-bottom: 20px;
+
+    .set-characters-form__input {
+      padding: 5px;
+      width: 170px;
+      text-shadow: none;
+      border-radius: 5px;
+      border: 1px solid rgb(230, 230, 230);
+      background-color: rgb(240, 240, 240);
+    }
+
+    .set-characters-form__btn {
+      margin-left: 10px;
+      padding: 5px;
+      color: white;
+      border-radius: 5px;
+      border: 1px solid rgb(0, 74, 225);
+      background-color: rgb(0, 74, 225);
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(0, 57, 174);
+      }
+    }
+  }
+
+  .expression-boxes-list {
+    margin-bottom: 20px;
+
+    .expression-boxes-list__item {
+      margin: 10px 5px 5px 0px;
+      padding: 5px 10px;
+      width: 30px;
+      text-shadow: none;
+      text-align: center;
+      border-radius: 5px;
+      border: 1px solid rgb(230, 230, 230);
+      background-color: rgb(240, 240, 240);
+    }
+  }
+
+  .expression-answer-form {
+    .expression-answer-form__btn {
+      margin-right: 10px;
+      padding: 5px 20px;
+      color: white;
+      border-radius: 5px;
+      border: 1px solid rgb(0, 74, 225);
+      background-color: rgb(0, 74, 225);
+
+      &:hover {
+        cursor: pointer;
+        background-color: rgb(0, 57, 174);
+      }
+      
+      &:disabled {
+        color: rgb(180, 180, 180);
+        border: 1px solid rgb(200, 200, 200);
+        background-color: rgb(230, 230, 230);
+        
+        &:hover {
+          cursor: not-allowed;
+        }
+      }
+    }
+
+    .expression-answer-form__input {
+      padding: 5px;
+      width: 150px;
+      text-shadow: none;
+      text-align: right;
+      border-radius: 5px;
+      border: 1px solid rgb(230, 230, 230);
+      background-color: rgb(240, 240, 240);
+    }
+  }
+}

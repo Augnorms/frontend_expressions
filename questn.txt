@@ -1,0 +1,27 @@
+Codewriting
+
+You are developing an application for mathematical expressions evaluation using vanilla JS.
+
+On the preview page you can see the following elements:
+
+The form with a single input for submitting a number — number of tokens in the expression
+The button to evaluate the expression.
+The field where the answer will appear.
+If a positive number n is entered into the form and the Make expression button is clicked, then n input boxes appear on the screen. 
+Each box may contain at most one character. Allowed characters are numerals (0 - 9), and basic operations (+, -, * and /).
+
+Acceptance Criteria
+Scenario: Correct expression is evaluated
+  Given There is a correct expression in the input boxes
+   When The "Evaluate" button is clicked
+   Then The evaluation result appears in the "Answer" field
+
+Scenario: Incorrect expression is evaluated
+  Given There is an incorrect expression in the input boxes
+   When The "Evaluate" button is clicked
+   Then The string "ERR" appears in the "Answer" field
+
+Notes
+You can expand the test results to see a more detailed report.
+Please use the provided template, as the tests access the elements by using the CSS selectors. If you change the structure of the DOM elements, the tests will fail.
+[execution time limit] 10 seconds
